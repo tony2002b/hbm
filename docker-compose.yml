@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+
+  platform:
+    image: ${dockerOrgName}/:
+    ports:
+      - "8080:8080"
+
